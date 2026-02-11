@@ -1,0 +1,67 @@
+<?php
+$page = 'video';
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine - Video</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body data-page="<?php echo $page; ?>">
+  <div class="bubble-hearts" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="emoji-sky" aria-hidden="true">
+    <span>💖</span>
+    <span>💘</span>
+    <span>💝</span>
+    <span>😍</span>
+    <span>✨</span>
+    <span>💗</span>
+    <span>💞</span>
+    <span>😘</span>
+    <span>💋</span>
+    <span>🌹</span>
+    <span>🫶</span>
+    <span>💓</span>
+    <span>💟</span>
+    <span>🥰</span>
+    <span>💫</span>
+    <span>❤️</span>
+  </div>
+  <main class="page page-video">
+    <section class="card video-card">
+      <h1>Valentine’s successfully hacked ❤️</h1>
+      <h2>Me and My love</h2>
+      <p class="subtext">Play the video and smile for me.</p>
+      <div class="video-wrap">
+        <video class="romantic-video" id="romantic-video" controls autoplay playsinline>
+          <source src="/assets/us.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <iframe
+          class="romantic-video fallback-video"
+          src="https://www.youtube.com/embed/1Dj3bi2vDMw?autoplay=1&mute=0&playsinline=1&rel=0"
+          title="Romantic video"
+          frameborder="0"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+  </main>
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

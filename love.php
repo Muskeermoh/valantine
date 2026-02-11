@@ -1,0 +1,65 @@
+<?php
+$page = 'love';
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine - Love</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body data-page="<?php echo $page; ?>">
+  <div class="bubble-hearts" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="emoji-sky" aria-hidden="true">
+    <span>💖</span>
+    <span>💘</span>
+    <span>💝</span>
+    <span>😍</span>
+    <span>✨</span>
+    <span>💗</span>
+    <span>💞</span>
+    <span>😘</span>
+    <span>💋</span>
+    <span>🌹</span>
+    <span>🫶</span>
+    <span>💓</span>
+    <span>💟</span>
+    <span>🥰</span>
+    <span>💫</span>
+    <span>❤️</span>
+  </div>
+  <main class="page page-love">
+    <section class="card love-card">
+      <div class="hearts" aria-hidden="true">
+        <span class="heart"></span>
+        <span class="heart"></span>
+        <span class="heart"></span>
+        <span class="heart"></span>
+        <span class="heart"></span>
+        <span class="heart"></span>
+        <span class="heart"></span>
+        <span class="heart"></span>
+      </div>
+      <div class="fade-in">
+        <p class="love-text">Correct answer ❤️</p>
+        <h1>That’s how my heart hears you. Apdi thaan koopdanumm</h1>
+      </div>
+      <a class="cta" href="/video.php">dedicating to you....</a>
+    </section>
+  </main>
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>
